@@ -1,6 +1,7 @@
 SSH Keys with Multiple GitHub Accounts:
 https://medium.com/@trionkidnapper/ssh-keys-with-multiple-github-accounts-c67db56f191e
 
+Add to .ssh/config file:
 Host bluejakester.github.com
 HostName github.com
 PreferredAuthentications publickey
@@ -11,4 +12,5 @@ HostName github.com
 PreferredAuthentications publickey
 IdentityFile ~/.ssh/id_rsa
 
-then: git clone git@bluejakester.github.com:bluejakester/test.git
+then to clone:
+git clone git@bluejakester.github.com:bluejakester/test.git
